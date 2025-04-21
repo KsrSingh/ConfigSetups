@@ -1,0 +1,1 @@
+ttymouse=xterm2

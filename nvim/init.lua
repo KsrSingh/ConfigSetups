@@ -1,11 +1,2 @@
-require("kuldeep.plugins-setup")
-require("kuldeep.core.options")
-require("kuldeep.core.keymaps")
-require("kuldeep.core.colorscheme")
-require("kuldeep.plugins.comment")
-require("kuldeep.plugins.nvim-tree")
-require("kuldeep.plugins.lualine")
-require("kuldeep.plugins.telescope")
-require("kuldeep.plugins.nvim-cmp")
-require("kuldeep.plugins.lsp.mason")
-require("kuldeep.plugins.lsp.lspconfig")
+-- bootstrap lazy.nvim, LazyVim and your plugins
+require("config.lazy")
